@@ -1,0 +1,108 @@
+body {
+/*	width: 1200px;*/
+	margin: 0 auto !important;
+	background-color: aliceblue;
+
+}
+img {
+	max-width: 100%;
+}
+
+.title-bar {
+	padding-top: 0.5rem;
+	padding-bottom: 0.6rem;
+	padding-left: 0.6rem;
+}
+.burgundy {
+	color: #0a7fbe;
+	font-weight: bold;
+	margin-top: 10px;
+}
+.off-canvas {
+	background: aliceblue;
+}
+
+.hero-full-screen {
+  height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: url("../images/Superman-Ultimate-Flight.png") center center no-repeat;
+  background-size: cover;
+/*	min-height: 990px;*/
+}
+
+/*This is for the Go Big Go Fast */
+/*Desktop Version*/
+.tagline {
+	width: 100%;
+	margin: auto;
+}
+.go {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #ba3026;
+	margin: 0;
+	line-height: 0;
+}
+.other {
+	font-weight: bold;
+	text-transform: uppercase;
+	color: black;
+	margin: 0;
+}
+/*Mobile Styles */
+@media print, screen and (max-width: 63.9375em) {
+h1, .h2 {
+	font-size: 5.5rem;
+	line-height: 1.7;
+	margin-top: 10%;
+	margin-bottom: 10rem;
+	}	
+}
+.hero-full-screen .middle-content-section {
+  	text-align: center;
+	margin-top: 50%;
+}
+.grid-container {
+	max-width: 75rem;
+	margin: 5% auto 0 2%;
+}
+
+/* Desktop styles*/
+@media print, screen and (min-width: 40em) {
+	h1 {
+	font-size: 7.5rem;
+	line-height: 2;
+	margin-top: 10%;
+	margin-bottom: 1.5rem;
+	}
+
+.hero-full-screen .middle-content-section {
+  text-align: center;
+	margin-top: 10%;
+}
+.grid-container {
+	max-width: 75rem;
+	margin: 5% auto 0 25%;
+}
+}
+
+/* iPad Styles*/
+@media print, screen and (min-width : 40em) and (max-width : 63.9375em) {
+.grid-container {
+	margin-top: 5%;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}	
+}
